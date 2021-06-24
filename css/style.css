@@ -1,0 +1,1573 @@
+
+
+
+
+
+/*/=========================// 
+    Cenral Style
+ //=====================--/*/
+body{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+/*-- Button Style--*/
+
+
+.public-white{
+	color:white;
+}
+
+/*---button---*/
+
+#bt-blue {
+	color:white;
+	background-color:#291aff;
+	font-size:15px;
+	padding:10px 15px;
+	border:1px solid #291aff;
+	border-radius:5px;
+}
+
+#bt-blue:hover{
+	color:#291aff;
+	background-color:white;
+	border-color:#291aff;
+}
+
+#bt-blue:focus{
+	box-shadow:2px rgba(225, 83, 97, 0.5);
+}
+
+
+
+/*---pragraph---*/
+p{
+	color:#808080;
+	font-size:17px;
+
+}
+
+h2{
+	color:#0a348f;
+}
+
+h3{
+	color:#0a348f;
+}
+
+h4{
+	color:#0a348f;
+}
+
+h5{
+	color:#0a348f;
+}
+h6{
+	color:#0a348f;
+}
+
+
+/*/=========================// 
+      Navabar Style
+ //=====================--/*/
+
+
+
+header {
+	padding:20px 0;
+}
+
+
+header #logo-style{
+	color:#291aff;
+	font-size:30px;
+	margin-right:8px;
+}
+
+header  #loge-font{
+	color:#291aff;
+	font-size:21px;
+}
+
+
+
+header ul li{
+	margin:10px 20px;
+}
+
+header ul li a{
+	color:#0a348f;
+	font-size:16px;
+	font-weight:bold;
+	
+
+}
+
+header ul li a:hover{
+	color:#291aff;
+}
+
+
+
+/*-- Button Style--*/
+
+header #bt-blue {
+	color:rgb(252,251,252);
+	background-color:#291aff;
+	font-size:15px;
+	padding:3px 25px;
+	border:1px solid #291aff;
+	border-radius:5px;
+	margin-left:20px;
+}
+
+header #bt-blue:hover{
+	color:#291aff;
+	background-color:rgb(252,251,252);
+	border-color:#291aff;
+}
+
+header #bt-blue:focus{
+	box-shadow:2px rgba(225, 83, 97, 0.5);
+}
+
+
+
+/*-- responsive --*/
+@media (max-width: 768px) {
+
+header {
+	padding:15px 0;
+}
+
+
+header #logo-style{
+	margin-right:4px;
+}
+
+header  #loge-font{
+	font-size:16px;
+}
+
+header ul li{
+	margin:5px 0px;
+}
+
+header ul li a{
+	font-size:11px;
+
+}
+
+
+/*-- Button Style--*/
+
+header #bt-blue {
+	font-size:10px;
+	padding:5px;
+}
+
+
+  }
+
+
+/*-- responsive --*/
+@media (max-width: 991px) {
+
+/*-- Button Style--*/
+
+header #bt-blue {
+	font-size:10px;
+	padding:5px;
+}
+
+
+
+
+/*---pragraph---*/
+p{
+	color:#808080;
+	font-size:15px;
+
+}
+
+
+  }
+
+
+
+
+/*/=========================// 
+       Backgroun Style'
+ //=====================--/*/
+
+#bg-color{
+	background-color:rgb(252,251,252);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-bottom:35px;
+
+}
+
+
+#background{
+	background-size:100vh;
+
+}
+
+
+
+#background h2{
+	margin-top:25vh;
+	color:#291aff;
+	font-size:36px;
+}
+
+#background p{
+	color:#d6d6c2;
+	font-size:17px;
+}
+
+/*-- Button Style --*/
+
+
+#background #bt-blue1 {
+	color:white;
+	background-color:#291aff;
+	font-size:20px;
+	padding:10px 20px;
+	border:1px solid #291aff;
+	border-radius:5px;
+	margin-top:20px;
+	margin-right:30px;
+}
+
+#background #bt-blue1:hover{
+	color:#291aff;
+	background-color:rgb(252,251,252);
+	border-color:#291aff;
+}
+
+#background #bt-blue1:focus,{
+	box-shadow:2px rgba(225, 83, 97, 0.5);
+}
+
+
+/*-- Button Style --*/
+#background #bt-blue2 {
+	background-color:rgb(252,251,252);
+	color:#291aff;
+	font-size:20px;
+	padding:10px 20px;
+	border:1px solid #291aff;
+	border-radius:5px;
+	margin-top:20px;
+	margin-right:30px;
+}
+
+#background #bt-blue2:hover{
+	color:white;
+	background-color:#291aff;
+	border-color:#291aff;
+}
+
+#background #bt-blue2:focus,{
+	box-shadow:2px rgba(225, 83, 97, 0.5);
+}
+
+
+/*-- Img Style --*/
+
+#img-style{
+	width:100%;	
+	margin:40px 0;
+}
+
+
+
+/*--- Responsive---*/
+@media (max-width: 768px) {
+
+#background h2{
+	margin-top:4vh;
+	font-size:20px;
+	text-align:center;
+}
+
+#background p{
+	font-size:15px;
+	text-align:center;
+}
+
+/*-- Button Style --*/
+
+
+#background #bt-blue1 {
+	font-size:13px;
+	padding:5px 14px;
+	margin-top:20px;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+
+
+/*-- Button Style --*/
+#background #bt-blue2 {
+	font-size:13px;
+	padding:5px 14px;
+	margin-top:20px;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+
+
+/*-- Img Style --*/
+
+#img-style{
+	display:none;
+}
+
+  }
+
+
+
+
+/*--- Responsive 991---*/
+@media (max-width: 991px) {
+
+#background h2{
+	margin-top:10vh;
+	font-size:22px;
+}
+
+#background p{
+	font-size:16px;
+}
+
+}
+
+
+ /*/=========================// 
+      Content Style
+ //=====================--/*/
+
+ #content{
+ 	padding-top:80px;
+ }
+
+#content .card{
+	box-shadow:2px 5px 10px 1px #e6e6e6;
+	margin:20px 0;
+}
+
+#content .card .card-body #card-content{
+	width:50px;
+	height:50px;
+	border-radius:360%;
+	background-color:#e7e6ff;
+	padding:10px;
+	font-size:30px;
+	text-align:center;
+	color:#291aff;
+}
+
+#content .card #card-content:hover{
+	background-color:#291aff;
+	color:white;
+}
+
+
+#content .card  h2{
+	margin:10px 0;
+	color:#0a348f;
+	font-size:25px;
+}
+
+
+
+/*----Card-blue---*/
+
+#content  #card-blue{
+	background-color:#291aff;
+	margin:50px 0 0 0;
+}
+
+#content  #card-blue h2{
+	color:white;
+}
+
+
+#content  #card-blue p{
+	color:#bfbfbf;
+}
+
+
+
+#content #card-blue #card-content{
+	color:white;
+	background-color:#0a348f;
+}
+
+#content #card-blue #card-content:hover{
+	background-color:white;
+	color: #291aff;
+}
+
+
+#content #card-blue .card{
+	box-shadow:1px 5px 5px 1px #e6e6e6;
+	margin:20px 0;
+}
+
+
+/*-- Card-end --*/
+#content #card-end{
+	margin:120px 0 30px 20px;
+	text-align:justify;
+}
+
+
+#content #card-end h2{
+	color:#0a348f;
+}
+
+#content #card-end p{
+	font-size:15px;
+	margin-bottom:30px;
+}
+
+/*--- Responsive ---*/
+@media (max-width: 768px){
+
+
+#content{
+ 	padding-top:40px;
+ }
+
+#content .card{
+	margin:20px 0;
+}
+
+#content .card p{
+	font-size:15px;
+}
+
+#content .card .card-body #card-content{
+	width:40px;
+	height:40px;
+	padding:10px;
+	font-size:20px;
+}
+
+
+
+#content .card  h2{	
+	font-size:20px;
+}
+
+
+
+/*----Card-blue---*/
+
+#content  #card-blue{
+	margin:0;
+}
+
+
+
+/*-- Card-end --*/
+#content #card-end{
+	margin:0;
+}	
+
+
+#content #card-end p{
+	margin-bottom:15px;
+}
+
+
+}
+
+
+
+
+/*--- Responsive  991 ---*/
+
+@media (max-width: 991px){
+
+
+#content{
+ 	padding-top:40px;
+ }
+
+#content .card{
+	margin:20px 0;
+}
+
+#content .card p{
+	font-size:16px;
+}
+
+
+
+#content .card  h2{	
+	font-size:22px;
+}
+
+
+
+/*----Card-blue---*/
+
+#content  #card-blue{
+	margin:0;
+}
+
+
+
+/*-- Card-end --*/
+#content #card-end{
+	margin:0;
+}	
+
+
+#content #card-end p{
+	margin-bottom:16px;
+}
+
+
+}
+
+
+
+/*/=========================// 
+      System Style
+ //=====================--/*/
+
+ #system{
+ 	margin:80px 0;
+}
+
+#system h2{
+	color:#0a348f; 
+}
+
+
+#system #pragraph-stlye{
+	background-color:white;
+	padding:10px;
+	padding-left:20px;
+	box-shadow:2px 5px 10px 1px #e6e6e6;
+}
+
+#system #system-img{
+	width:100%;
+	margin:10px 0 0 0;
+
+}
+
+
+ /*--- responsive ---*/
+@media (max-width: 768px){
+
+
+#system{
+ 	margin:40px 0;
+}
+
+#system h2{
+	font-size:20px;
+}
+
+#system p{
+	font-size:15px;
+}
+
+#system #pragraph-stlye{
+	padding-left:15px;
+}
+
+#system #system-img{
+	margin:0px;
+
+}
+
+}
+
+
+
+/*--- responsive  991---*/
+@media (max-width: 991px){
+
+
+#system{
+ 	margin:40px 0;
+}
+
+#system h2{
+	font-size:23px;
+	text-align:center;
+}
+
+#system p{
+	font-size:14px;
+}
+
+#system #pragraph-stlye{
+	padding-left:15px;
+}
+
+#system #system-img{
+	margin-top:50px;
+
+}
+
+}
+
+
+
+/*/=========================// 
+      Screenshots Style
+ //=====================--/*/
+
+#Screenshots{
+	margin:80px 0;
+}
+
+
+
+/*-- System Button Style --*/
+
+#Screenshots .btn-group{
+	margin:30px 0;
+}
+
+/*---->>system-btn --*/
+#Screenshots #system-btn {
+	font-weight:bold;
+	color:white;
+	background-color:#291aff;
+	font-size:20px;
+	padding:10px 35px;
+	border:1px solid #291aff;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+}
+
+#Screenshots #system-btn:hover{
+	color:#291aff;
+	background-color:white;
+	border-color:#291aff;
+}
+
+#Screenshots #system-btn:focus,{
+	box-shadow:1px 3px 6px 0px #8c8c8c;
+}
+
+
+/*---->>Systm-btn-outline --*/
+#Screenshots #systm-btn-outline {
+	color:#291aff;
+	font-weight:bold;
+	background-color:white;
+	font-size:20px;
+	padding:10px 20px;
+	border:1px solid #291aff;
+	border-radius-left:5px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+}
+
+#Screenshots #systm-btn-outline:hover{
+	background-color:#291aff;
+	color:white;
+	border-color:#291aff;
+}
+
+#Screenshots #systm-btn-outline:focus,{
+	box-shadow:2px rgba(225, 83, 97, 0.5);
+}
+
+
+/*-- Screenshots Slider Style--*/
+
+ #Screenshots #slider-img{
+	width:100%;
+	height:400px;
+}
+
+#Screenshots #slider-links{
+	font-size:20px;
+	margin:40px 15px;
+	color:black;
+
+}
+
+
+
+/*--- responsive ---*/
+@media (max-width: 768px){
+
+
+#Screenshots{
+	margin:40px 0;
+}
+
+
+
+#Screenshots h2{
+	font-size:25px;
+}
+
+
+#Screenshots p{
+	font-size:15px;
+}
+
+
+
+
+
+/*-- System Button Style --*/
+
+#Screenshots .btn-group{
+	margin:30px 0;
+}
+
+/*---->>system-btn --*/
+#Screenshots #system-btn {
+	font-size:16px;
+	padding:8px 25px;
+}
+
+
+/*---->>Systm-btn-outline --*/
+#Screenshots #systm-btn-outline {
+	font-size:16px;
+	padding:8px 20px;
+}
+
+
+/*-- Screenshots Slider Style--*/
+
+ #Screenshots #slider-img{
+	height:200px;
+}
+
+#Screenshots #slider-links{
+	font-size:17px;
+	margin:25px 13px;
+
+}
+
+
+
+
+}
+
+
+
+  /*Responsive 450*/
+@media(max-width:500px){
+
+/*-- Screenshots Slider Style--*/
+
+ #Screenshots #slider-img{
+	height:80px;
+}
+
+#Screenshots #slider-links{
+	font-size:20px;
+	margin:420px 10px;
+}
+
+}
+
+
+/*--- responsive ---*/
+@media (max-width: 991px){
+
+
+#Screenshots{
+	margin:40px 0;
+}
+
+
+
+#Screenshots h2{
+	font-size:25px;
+}
+
+
+#Screenshots p{
+	font-size:16px;
+}
+
+
+
+
+
+/*-- System Button Style --*/
+
+#Screenshots .btn-group{
+	margin:30px 0;
+}
+
+/*---->>system-btn --*/
+#Screenshots #system-btn {
+	font-size:16px;
+	padding:8px 25px;
+}
+
+
+/*---->>Systm-btn-outline --*/
+#Screenshots #systm-btn-outline {
+	font-size:16px;
+	padding:8px 20px;
+}
+
+
+/*-- Screenshots Slider Style--*/
+
+ #Screenshots #slider-img{
+	height:250px;
+}
+
+#Screenshots #slider-links{
+	font-size:17px;
+	margin:25px 13px;
+
+}
+
+
+
+
+}
+
+
+
+/*/=========================// 
+      Number Style
+ //=====================--/*/
+
+ #number{
+ 	padding:80px 0;
+ 	background-image:url('../img/portfolio-2.jpg');
+ 	background-size:cover;
+ 	background-repeat: no-repeat;
+
+ }
+
+ #number #bt-blue{
+ 	margin-top:40px;
+ }
+
+/*--- Responsive ---*/
+@media (max-width: 991px){
+
+#number{
+ 	margin:40px 0;
+ }
+
+ #number #bt-blue{
+ 	margin-top:30px;
+ }
+
+}
+
+
+ /*/=========================// 
+      text Style
+ 	//=====================--/*/
+
+ #text{
+ 	margin:60px 0;
+ }
+
+ #text h1{
+	color:#0a348f;
+
+ }
+
+
+ /*--- Responsive ---*/
+@media (max-width: 768px){
+
+#text{
+ 	margin:30px 0;
+ }
+
+ #text h1{
+	font-size:25px;
+
+ }
+
+
+
+}
+
+
+/*--- Responsive ---*/
+@media (max-width: 991px){
+
+#text{
+ 	margin:40px 0;
+ }
+
+ #text h1{
+	font-size:25px;
+
+ }
+
+
+
+}
+
+
+
+ /*/=========================// 
+      Work Style
+ 	//=====================--/*/
+
+ #work{
+ 	margin:80px 0;
+ }
+
+#work .card{
+	margin:20px 0;
+	box-shadow:1px 3px 6px 0px #e6e6e6;
+	border-radius:5px;
+}
+
+#work .card .card-header{
+	background-color:white;
+}
+
+
+#work .card a{
+	color:#0a348f;
+	font-weight:bold;
+}
+
+
+#work .card .card-body{
+	color:#808080;
+	font-size:16px;
+}
+
+#work #work-img{
+	width:100%;
+	height:470px;
+	padding-top:20px;
+
+}
+
+
+
+/*--- Responsive ---*/
+@media (max-width: 991px){
+
+#work{
+ 	margin:40px 0;
+ }
+
+
+ #work p{
+ 	font-size:15px;
+ }
+
+
+#work .card{
+	margin:20px 0;
+}
+
+
+
+#work .card a{
+	font-size:15px;
+}
+
+
+#work .card .card-body{
+	font-size:15px;
+}
+
+#work #work-img{
+	height:300px;
+	margin:20px 0;
+
+}
+
+
+ 
+
+}
+
+
+/*/--=========================// 
+ 	Information Style 
+ 	//=====================---/*/
+
+ #information{
+ 	margin:80px 0;
+ 	border-radius:10px;
+ }
+
+
+/*---Presonal style---*/
+ #information #personal .card{
+ 	box-shadow:2px 0px 10px 0px #e6e6e7;
+ }
+
+ #information #personal .card .card-header{
+ 	color:#0a348f;
+ 	background-color:white;
+ }
+
+#information #personal .card .card-body h2{
+ 	color:#0a348f;
+ }
+
+ #information #personal .card .card-body span{
+ 	font-size:18px;
+ }
+
+#information #personal .card .card-body p{
+ 	color:#0a348f;
+ }
+
+ #information #personal .card .card-footer{
+ 	background-color:#291aff;
+ 	color:white;
+ }
+
+
+/*---business---*/
+ #information #business .card{
+ 	box-shadow:2px 0px 10px 0px #e6e6e7;
+ 	color:white;
+ }
+
+#information #business .card .card-header{
+ 	background-color:#291aff;
+ }
+
+ #information #business .card .card-body{
+ 	font-size:18px;
+ 	background-color:#291aff;
+ }
+
+
+#information #business .card h5{
+ 	color:white;
+ }
+
+ #information #business .card h2{
+ 	color:white;
+ }
+
+
+ #information #business .card .card-body p{
+ 	color:white;
+ }
+
+
+
+ #information #business .card .card-body span{
+ 	font-size:18px;
+ }
+
+
+ #information #business .card .card-footer{
+ 	background-color:white;
+ 	color:#0a348f;
+ }
+
+/*--- Responsive ---*/
+@media (max-width: 768px){
+
+#information{
+ 	margin:40px 0;
+ }
+
+#information .card{
+	margin:10px 0;
+}
+
+/*---business---*/
+ #information #business .card .card-body{
+ 	font-size:15px;
+ }
+
+
+}
+
+
+
+/*--- Responsive ---*/
+@media (max-width: 991px){
+
+#information{
+ 	margin:40px 0;
+ }
+
+
+/*---business---*/
+ #information #business .card .card-body{
+ 	font-size:15px;
+ }
+
+
+
+#information #personal .card .card-body h2{
+ 	font-size:22px;
+ }
+
+ #information #personal .card .card-body span{
+ 	font-size:14px;
+ }
+
+#information #personal .card .card-body p{
+ 	font-size:14px;
+ }
+
+
+/*---business---*/
+
+ #information #business .card .card-body{
+ 	font-size:14px;
+ }
+
+
+#information #business .card h5{
+ 	font-size:22px;
+ }
+
+ #information #business .card h2{
+ 	font-size:21px;
+ }
+
+
+ #information #business .card .card-body p{
+ 	font-size:14px;
+ }
+
+
+
+ #information #business .card .card-body span{
+ 	font-size:14px;
+ }
+
+
+ #chose-your h2{
+ 	font-size: 23px;
+ }
+
+
+#chose-your p{
+ 	font-size: 14px;
+ }
+
+
+
+}
+
+
+
+
+/*/--=========================// 
+ 	Textimonials Style  
+ //=====================---/*/
+
+#textimonials{
+	margin:80px 0;
+}
+
+#textimonials h2{
+	margin:40px;
+}
+
+
+
+/*-- Textimonials Slider Style--*/
+
+#textimonials #BG-border{
+	box-shadow:1px 0px 33px 0px #cccccc;
+	border-radius:80px;
+	margin-top:40px;
+}
+
+#textimonials .card-body{
+	padding:40px 60px 0 60px;
+	border-radius:10px;
+	margin:0 30px;
+	box-shadow:0 1px 9px 0px #cccccc;
+	background-color:white;
+}
+
+
+#textimonials .card-body #card-img{
+	width:100px;
+	height:100px;
+	border-radius:360%;
+	margin-bottom:10px;
+}
+
+#textimonials .card-body #font-img{
+	font-size:15px;
+	color:#999999;
+
+}
+
+
+
+#textimonials #slider{
+	font-size:20px;
+	margin:15px;
+	color:black;
+
+}
+
+
+/*--- Responsive ---*/
+@media (max-width: 768px){
+
+
+ #textimonials{
+	margin:40px 0;
+}
+
+#textimonials h2{
+	margin:20px;
+}
+
+}
+/*--- Responsive 991 ---*/
+@media (max-width: 991px){
+
+
+#textimonials h2{
+	margin:20px;
+}
+
+
+}
+
+
+  /*Responsive 450*/
+@media(max-width:450px){
+
+#textimonials{
+	margin:20px 0;
+}
+
+#textimonials h2{
+	margin:20px;
+}
+
+
+
+/*-- Textimonials Slider Style--*/
+
+
+#textimonials .card-body #card-img{
+	width:50px;
+	height:50px;
+	border-radius:360%;
+	margin-bottom:5px;
+}
+
+#textimonials .card-body #font-img{
+	font-size:12px;
+
+}
+
+
+
+#textimonials #slider{
+	font-size:13px;
+
+}
+
+
+#textimonials #BG-border .card-body p{
+	font-size:12px;
+}
+
+
+#textimonials #BG-border .card-body h4{
+	font-size:17px;
+}
+
+
+}
+
+
+
+/*/--=========================// 
+ 	Our Blog Style  
+ //=====================---/*/
+#our-blog{
+	margin:80px 0;
+}
+
+
+#our-blog .card{
+	box-shadow:2px 5px 10px 1px #e6e6e6;
+	border-radius:10px;
+}
+
+
+#our-blog h1{
+	color:#0a348f;
+}
+
+#our-blog .card h5{
+	color:#0a348f;
+}
+
+#our-blog .card a{
+	color:#0a348f;
+	font-size:19px;
+	text-decoration:none;
+}
+
+#our-blog .card a:hover{
+	font-weight:bold;
+	color:#291aff;
+}
+
+#our-blog  #size-margin{
+	margin-top:100px;
+}
+
+#our-blog .card img{
+	width:100%;
+	height:200px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+#our-blog .card #num{
+	font-size:15px;
+	color:#999999;
+}
+
+
+
+/*--- Responsive ---*/
+@media (max-width: 768px){
+
+#our-blog{
+	margin:40px 0;
+}
+
+
+#our-blog .card{
+	margin:10px 0;
+	margin-top:20px;
+}
+
+
+#our-blog .card a{
+	font-size:15px;
+}
+
+
+#our-blog  #size-margin{
+	margin-top:20px;
+}
+
+
+#our-blog .card #num{
+	font-size:13px;
+}
+
+
+
+ 
+
+}
+
+
+
+/*--- Responsive ---*/
+@media (max-width: 991px){
+
+#our-blog{
+	margin:40px 0;
+}
+
+
+#our-blog .card a{
+	font-size:14px;
+}
+
+
+#our-blog  #size-margin{
+	margin-top:20px;
+}
+
+
+#our-blog .card #num{
+	font-size:14px;
+}
+
+
+
+#our-blog h1{
+	font-size:25px;
+}
+
+#our-blog .card h5{
+	font-size:17px;
+}
+
+#our-blog .card p{
+	font-size:16px;
+}
+
+#our-blog .card a{
+	font-size:15px;
+}
+
+
+#our-blog  #size-margin{
+	margin-top:80px;
+}
+
+#our-blog .card img{
+	width:100%;
+	height:150px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+ 
+#our-blog #card-text{
+	font-size:15px;
+}
+
+
+
+
+}
+
+/*/--=========================// 
+ 	input Style  
+ //=====================---/*/
+#input{
+	margin:80px 0 0 0;
+ 	background-color:rgb(54,50,107);
+ 	padding:40px;
+ 	color:white;
+
+}
+
+#input #input-content{
+	border-right:2px solid white;
+	font-size:20px;
+}
+
+#input #input-arrow{
+	background-color:white;
+	font-size:30px;
+	border-left:4px solid white;
+	color:rgb(54,50,107);
+}
+
+#input #input-arrow:hover{
+	background-color:white;
+	font-size:30px;
+	border-left:4px solid white;
+}
+
+
+
+/*--- Responsive ---*/
+@media (max-width: 991px){
+
+
+ #input{
+	margin:40px 0 0 0;
+ 	padding:20px;
+ 	padding-bottom:10px;
+}
+
+#input h1{
+	font-size:26px;
+}
+
+
+#input #input-content{
+	font-size:16px;
+}
+
+#input #input-arrow{
+	font-size:28px;
+}
+
+
+
+}
+
+
+/*/--=========================// 
+ 	Footer Style  
+ //=====================---/*/
+
+
+
+ #footer{
+ 	border-top:1px solid white;
+ 	background-color:rgb(54,50,107);
+ 	padding:40px;
+ 	padding-bottom:20px;
+ 	color:white;
+ }
+
+
+#footer p{
+ 	margin-top:20px;
+ }
+
+
+#footer h5{
+ 	color:white;
+ }
+
+
+
+
+ /*--- Responsive ---*/
+@media (max-width: 768px){
+
+ #footer{
+ 	padding:20px;
+ 	text-align:center;
+ }
+
+
+#footer p{
+ 	margin-top:0px;
+ }
+
+ 
+
+}
+
+@media (max-width: 1024px) {
+	.flex-button {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+}
+
+@media (max-width: 1199px) {
+	#bt-blue1,
+	#bt-blue2 { font-size: 14px !important; }
+}
